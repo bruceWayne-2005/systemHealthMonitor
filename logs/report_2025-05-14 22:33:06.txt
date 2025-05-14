@@ -1,0 +1,22 @@
+System Health Report - 2025-05-14 22:33:06
+--------------------------------
+top - 22:33:07 up  1:59,  2 users,  load average: 0.98, 0.97, 0.96
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi       7.6Gi       714Mi       1.7Gi       9.2Gi       7.7Gi
+Swap:          8.0Gi       1.2Mi       8.0Gi
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p5   67G   54G   12G  83% /
+devtmpfs        4.0M     0  4.0M   0% /dev
+tmpfs           7.7G   31M  7.7G   1% /dev/shm
+efivarfs        438K  276K  158K  64% /sys/firmware/efi/efivars
+tmpfs           3.1G  2.5M  3.1G   1% /run
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           7.7G   20K  7.7G   1% /tmp
+/dev/nvme0n1p5   67G   54G   12G  83% /home
+/dev/nvme0n1p4  974M  426M  481M  48% /boot
+/dev/nvme0n1p1   96M   80M   17M  83% /boot/efi
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+tmpfs           1.6G  5.0M  1.6G   1% /run/user/1000
+bruce    seat0        2025-05-14 20:34
+bruce    tty2         2025-05-14 20:34
+ 22:33:07 up  1:59,  2 users,  load average: 0.98, 0.97, 0.96

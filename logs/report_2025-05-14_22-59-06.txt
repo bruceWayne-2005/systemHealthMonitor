@@ -1,0 +1,27 @@
+📄 System Health Report - 2025-05-14_22-59-06
+-------------------------------------------
+ 22:59:06 up  2:25,  2 users,  load average: 0.90, 1.40, 1.54
+               total        used        free      shared  buff/cache   available
+Mem:           15665        8071        1002        1907        8838        7594
+Swap:           8191           1        8190
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p5   67G   54G   12G  83% /
+devtmpfs        4.0M     0  4.0M   0% /dev
+tmpfs           7.7G   31M  7.7G   1% /dev/shm
+efivarfs        438K  276K  158K  64% /sys/firmware/efi/efivars
+tmpfs           3.1G  2.5M  3.1G   1% /run
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           7.7G   20K  7.7G   1% /tmp
+/dev/nvme0n1p5   67G   54G   12G  83% /home
+/dev/nvme0n1p4  974M  426M  481M  48% /boot
+/dev/nvme0n1p1   96M   80M   17M  83% /boot/efi
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+tmpfs           1.6G  5.0M  1.6G   1% /run/user/1000
+bruce    seat0        2025-05-14 20:34
+bruce    tty2         2025-05-14 20:34
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+bruce       3988  6.7  4.4 3722372 710920 ?      Sl   20:34   9:46 /usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:40248 -prefMapHandle 1:271196 -jsInitHandle 2:247720 -parentBuildID 20250501193411 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {c5e7d30f-039d-4319-8c33-109f79db6c23} -parentPid 3719 -crashReporter 6 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 8 tab
+bruce       3719  7.2  4.2 12713956 680996 ?     Sl   20:34  10:30 /usr/lib64/firefox/firefox
+bruce       9760 60.8  3.9 1467401644 636820 ?   SLl  22:03  34:01 /proc/self/exe --type=renderer --crashpad-handler-pid=36 --enable-crash-reporter=9594471e-12e9-471f-93b2-79c9b4fc994c,no_channel --user-data-dir=/home/bruce/.var/app/com.discordapp.Discord/config/discord --secure-schemes=disclip,sentry-ipc --bypasscsp-schemes=sentry-ipc --cors-schemes=sentry-ipc --fetch-schemes=disclip,sentry-ipc --app-path=/app/discord/resources/app.asar --no-sandbox --no-zygote --enable-blink-features=EnumerateDevices,AudioOutputDevices --autoplay-policy=no-user-gesture-required --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=6 --time-ticks-at-unix-epoch=-1747235023388057 --launch-time-ticks=5368933895 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,5331843018238728770,1545297251275849041,262144 --disable-features=AllowAggressiveThrottlingWithWebSocket,HardwareMediaKeyHandling,IntensiveWakeUpThrottling,MediaSessionService,SpareRendererForSitePerProcess,UseEcoQoSForBackgroundProcess,WinRetrieveSuggestionsOnlyOnDemand --variations-seed-version --enable-node-leakage-in-renderers
+bruce       3011  0.9  2.9 1619948 476088 ?      Sl   20:34   1:26 /usr/bin/gnome-software --gapplication-service
+bruce      10497  2.7  2.7 1232218388 438452 ?   Sl   22:09   1:22 /usr/share/code/code --type=renderer --crashpad-handler-pid=10453 --enable-crash-reporter=bea3ac24-918a-4d5f-8328-d7df7e03a658,no_channel --user-data-dir=/home/bruce/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --app-path=/usr/share/code/resources/app --enable-sandbox --enable-blink-features=HighlightAPI --js-flags=--nodecommit_pooled_pages --disable-blink-features=FontMatchingCTMigration,StandardizedBrowserZoom, --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=4 --time-ticks-at-unix-epoch=-1747235023388056 --launch-time-ticks=5718349536 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,3378009737777887391,12769592976556957255,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version --vscode-window-config=vscode:ba3d95db-a112-49b2-8b28-e4322961c205
